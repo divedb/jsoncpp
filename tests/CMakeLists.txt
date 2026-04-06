@@ -1,0 +1,2 @@
+add_executable(jsoncpp_type_test jsoncpp_type_test.cc)
+target_link_libraries(jsoncpp_type_test PRIVATE jsoncpp gtest gtest_main)
